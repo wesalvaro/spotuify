@@ -27,11 +27,11 @@
     "spotifyd-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1792417013,
-        "narHash": "sha256-GAkyegNmD84zleQP/TUuDal2G/S05rQf4uHII5kyUns=",
+        "lastModified": 1792420808,
+        "narHash": "sha256-pTn5Wlri6FM1He20z8k2SUnM27kD3qiSIfVL8iBNujg=",
         "owner": "wesalvaro",
         "repo": "spotifyd",
-        "rev": "19a4c93891ba26d8cf3ac82878258fa6b00b34a5",
+        "rev": "b24f50e556ff25c873ba0309e2d0663dd227aba7",
         "type": "github"
       },
       "original": {
