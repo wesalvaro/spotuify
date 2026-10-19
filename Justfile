@@ -1,4 +1,4 @@
-cache := "spotuify"
+cache := "spotifyd"
 cache_path := env("HOME") / ".cache/spotifyd"
 device_name := `hostname -s`
 

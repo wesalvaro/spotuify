@@ -4,9 +4,9 @@
   # Binary cache for the custom spotifyd build (pushed with `just push`). Nix asks once whether
   # to trust these; ~/git/nix sets the same in nix.settings so no prompt appears there.
   nixConfig = {
-    extra-substituters = [ "https://spotuify.cachix.org" ];
+    extra-substituters = [ "https://spotifyd.cachix.org" ];
     extra-trusted-public-keys = [
-      "spotuify.cachix.org-1:szg7DN36MPYtFAmMS2oQup2AM+nQZKKWQZzgsN2HDu4="
+      "spotifyd.cachix.org-1:FUqQHTP26vow8BSLlWy22Mvr0/d9GFEPjHmpTuGVOFk="
     ];
   };
 

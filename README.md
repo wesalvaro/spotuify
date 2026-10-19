@@ -12,7 +12,7 @@ All of it runs *inside* spotifyd: this repo builds the
 which adds an opt-in `macos_media_controls` cargo feature (one new module, a few cfg-gated lines
 elsewhere). Nothing else to run: no D-Bus, no helper daemon.
 
-Binaries are in the `spotuify` cachix cache; see `flake.nix` for the public key.
+Binaries are in the `spotifyd` cachix cache; see `flake.nix` for the public key.
 
 ## Try it
 
@@ -32,8 +32,8 @@ spotuify.url = "github:wesalvaro/spotuify";
 imports = [ inputs.spotuify.darwinModules.default ];
 services.spotuify.enable = true;
 nix.settings = {
-  substituters = [ "https://spotuify.cachix.org" ];
-  trusted-public-keys = [ "spotuify.cachix.org-1:szg7DN36MPYtFAmMS2oQup2AM+nQZKKWQZzgsN2HDu4=" ];
+  substituters = [ "https://spotifyd.cachix.org" ];
+  trusted-public-keys = [ "spotifyd.cachix.org-1:FUqQHTP26vow8BSLlWy22Mvr0/d9GFEPjHmpTuGVOFk=" ];
 };
 ```
 
