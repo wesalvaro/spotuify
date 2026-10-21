@@ -15,7 +15,7 @@
   cargoDeps = rustPlatform.fetchCargoVendor {
     inherit src;
     name = "spotifyd-spotuify-${old.version}-vendor";
-    hash = "sha256-BVl8VjTjjY+KbI8dWVeq93sKRsoLrxLljStfOa1mw18=";
+    hash = "sha256-EOvNTyiFsCins1VC7DFN4oXZhhLszWZeU1lAdhn3NW4=";
   };
   # buildRustPackage derives these from `buildFeatures` before overrideAttrs runs, so the
   # derived attributes are what the cargo hooks actually read.

@@ -27,16 +27,16 @@
     "spotifyd-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1792420808,
-        "narHash": "sha256-pTn5Wlri6FM1He20z8k2SUnM27kD3qiSIfVL8iBNujg=",
+        "lastModified": 1792548352,
+        "narHash": "sha256-LASKyiXsFnkldd/WO/DKCq6Hw/TWzGJ2BL7HZQXILb4=",
         "owner": "wesalvaro",
         "repo": "spotifyd",
-        "rev": "b24f50e556ff25c873ba0309e2d0663dd227aba7",
+        "rev": "76868838e6775b98d7c555be252bf0762e7b6c05",
         "type": "github"
       },
       "original": {
         "owner": "wesalvaro",
-        "ref": "macos-media-controls",
+        "ref": "spotuify",
         "repo": "spotifyd",
         "type": "github"
       }

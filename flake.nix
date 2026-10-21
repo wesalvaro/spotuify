@@ -19,9 +19,9 @@
       url = "github:numtide/treefmt-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    # The fork: upstream spotifyd plus the `macos_media_controls` feature.
+    # The fork: upstream spotifyd plus `macos-media-controls` and `macos-default-output`.
     spotifyd-src = {
-      url = "github:wesalvaro/spotifyd/macos-media-controls";
+      url = "github:wesalvaro/spotifyd/spotuify";
       flake = false;
     };
   };

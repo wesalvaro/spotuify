@@ -5,12 +5,15 @@
 * shows what's playing in the **Now Playing** widget (Control Center, menu bar, lock screen),
 * answers the **media keys** and headset buttons — play on an idle Mac pulls playback over from
   the phone,
+* follows macOS **default audio output** changes (headphones connecting/disconnecting, Control
+  Center switches) without restarting,
 * keeps `~/.local/state/spotifyd/now_playing.json` current for shell prompts and other tools.
 
 All of it runs *inside* spotifyd: this repo builds the
-[`macos-media-controls` branch of a spotifyd fork](https://github.com/wesalvaro/spotifyd/tree/macos-media-controls),
-which adds an opt-in `macos_media_controls` cargo feature (one new module, a few cfg-gated lines
-elsewhere). Nothing else to run: no D-Bus, no helper daemon.
+[`spotuify` branch of a spotifyd fork](https://github.com/wesalvaro/spotifyd/tree/spotuify)
+(merging [`macos-media-controls`](https://github.com/wesalvaro/spotifyd/tree/macos-media-controls)
+and [`macos-default-output`](https://github.com/wesalvaro/spotifyd/tree/macos-default-output)).
+Nothing else to run: no D-Bus, no helper daemon.
 
 Binaries are in the `spotifyd` cachix cache; see `flake.nix` for the public key.
 
